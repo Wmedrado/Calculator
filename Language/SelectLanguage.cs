@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using Calculator.Language;
+using Calculator.Language.Translations;
 
 
 namespace Calculator.Language
@@ -10,8 +11,8 @@ namespace Calculator.Language
         [Display (Name = nameof(Global.English))]
         English = 1,
 
-        [Display (Name = nameof(Global.Espanish))]
-        Espanish = 2,
+        [Display (Name = nameof(Global.Spanish))]
+        Spanish = 2,
 
         [Display (Name = nameof(Global.Portuguese))]
         Portuguese = 3,
@@ -27,7 +28,7 @@ namespace Calculator.Language
                     Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
                     Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
                     break;
-                case ELanguage.Espanish:
+                case ELanguage.Spanish:
                     Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es-ES");
                     Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("es-ES");
                     break;

@@ -121,39 +121,31 @@
     <value>Adición</value>
     <comment>Operação Matemática</comment>
   </data>
+  <data name="CalculatorName" xml:space="preserve">
+    <value>Calculadora</value>
+  </data>
   <data name="Division" xml:space="preserve">
     <value>División</value>
     <comment>Operação Matemática</comment>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="InvalidLanguage" xml:space="preserve">
+    <value>Idioma no admitido</value>
   </data>
   <data name="Multiplication" xml:space="preserve">
     <value>Multiplicación</value>
     <comment>Operação Matemática</comment>
   </data>
-  <data name="Subtration" xml:space="preserve">
-    <value>Sustracción</value>
-    <comment>Operação Matemática</comment>
-  </data>
-  <data name="Welcome" xml:space="preserve">
-    <value>Bienvenido a tu amigable calculadora!</value>
-    <comment>Mensagem de boas vindas</comment>
-  </data>
-  <data name="CalculatorName" xml:space="preserve">
-    <value>Calculadora</value>
-  </data>
-  <data name="SelectOperationType" xml:space="preserve">
-    <value>¿Qué tipo de operación matemática quieres utilizar?</value>
-  </data>
-  <data name="Response" xml:space="preserve">
-    <value>Respuesta</value>
-  </data>
-  <data name="Espanish" xml:space="preserve">
-    <value>Español</value>
-  </data>
   <data name="Portuguese" xml:space="preserve">
     <value>Portugués</value>
   </data>
-  <data name="English" xml:space="preserve">
-    <value>Inglés</value>
+  <data name="Response" xml:space="preserve">
+    <value>Respuesta</value>
   </data>
   <data name="Select" xml:space="preserve">
     <value>Seleccionar</value>
@@ -161,7 +153,39 @@
   <data name="SelectLanguage" xml:space="preserve">
     <value>Seleccione el idioma deseado</value>
   </data>
-  <data name="InvalidLanguage" xml:space="preserve">
-    <value>Idioma no admitido</value>
+  <data name="SelectOperationType" xml:space="preserve">
+    <value>¿Qué tipo de operación matemática quieres utilizar?</value>
+  </data>
+  <data name="Subtraction" xml:space="preserve">
+    <value>Sustracción</value>
+    <comment>Operação Matemática</comment>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Bienvenido a tu amigable calculadora!</value>
+    <comment>Mensagem de boas vindas</comment>
+  </data>
+  <data name="SelectedLanguage" xml:space="preserve">
+    <value>Idioma seleccionado</value>
+  </data>
+  <data name="YouHaveSelected" xml:space="preserve">
+    <value>Tu seleccionaste</value>
+  </data>
+  <data name="EnterTheValue" xml:space="preserve">
+    <value>Introduzca el valor</value>
+  </data>
+  <data name="TheResultOf" xml:space="preserve">
+    <value>El resultado de la operación es:</value>
+  </data>
+  <data name="Is" xml:space="preserve">
+    <value>es</value>
+  </data>
+  <data name="InvalidOperation" xml:space="preserve">
+    <value>Operación inválida</value>
+  </data>
+  <data name="DivideZero" xml:space="preserve">
+    <value>No es posible dividir cero</value>
+  </data>
+  <data name="ZeroValue" xml:space="preserve">
+    <value>Uno de los valores es cero</value>
   </data>
 </root>

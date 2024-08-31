@@ -133,8 +133,8 @@
     <value>English</value>
     <comment>Idioma - Inglês</comment>
   </data>
-  <data name="Espanish" xml:space="preserve">
-    <value>Espanish</value>
+  <data name="Spanish" xml:space="preserve">
+    <value>Spanish</value>
     <comment>Idioma - Espanhol</comment>
   </data>
   <data name="InvalidLanguage" xml:space="preserve">
@@ -165,12 +165,42 @@
     <value>What type of mathematical operation do you want to use?</value>
     <comment>Seleção do tipo de Operação Matemática</comment>
   </data>
-  <data name="Subtration" xml:space="preserve">
-    <value>Subtration</value>
+  <data name="Subtraction" xml:space="preserve">
+    <value>Subtraction</value>
     <comment>Operação Matemática</comment>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Welcome to your friendly calculator!</value>
     <comment>Mensagem de boas vindas</comment>
+  </data>
+  <data name="SelectedLanguage" xml:space="preserve">
+    <value>Selected language</value>
+    <comment>Linguagem selecionada</comment>
+  </data>
+  <data name="YouHaveSelected" xml:space="preserve">
+    <value>You have selected</value>
+    <comment>Você selecionou</comment>
+  </data>
+  <data name="EnterTheValue" xml:space="preserve">
+    <value>Enter the value</value>
+    <comment>Inserir o valor</comment>
+  </data>
+  <data name="TheResultOf" xml:space="preserve">
+    <value>The result of the operation is:</value>
+  </data>
+  <data name="Is" xml:space="preserve">
+    <value>is</value>
+    <comment>É</comment>
+  </data>
+  <data name="InvalidOperation" xml:space="preserve">
+    <value>Invalid Operation</value>
+  </data>
+  <data name="DivideZero" xml:space="preserve">
+    <value>It is not possible to divide zero</value>
+    <comment>Divisão pro zero</comment>
+  </data>
+  <data name="ZeroValue" xml:space="preserve">
+    <value>One of the values ​​is zero</value>
+    <comment>Valor zerado</comment>
   </data>
 </root>

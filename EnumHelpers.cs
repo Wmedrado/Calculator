@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
 
 namespace Calculator
 {
@@ -11,6 +10,20 @@ namespace Calculator
         public static string EnumToString(Enum enumType)
         {
             return enumType.ToString();
+        }
+
+        public static string GetDisplayName<TEnum>(TEnum value) where TEnum : Enum
+        {
+            var enumType = typeof(TEnum);
+            var enumName = value.ToString();
+            var member = enumType.GetMember(enumName).FirstOrDefault();
+            
+            if (member == null)
+            {
+                return enumName;
+            }
+            var displayAttribute = member.GetCustomAttribute<DisplayAttribute>();
+            return displayAttribute != null ? displayAttribute.GetName() : enumName;
         }
     }
 }
